@@ -193,3 +193,65 @@
     }
   }
 }
+
+/* about section */
+
+.aboutcontent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    padding: 20px;
+    height: 290px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.aboutleft {
+  flex-basis: 100%;
+  background-image: url(/blackpool_tower_darker_resize.png);
+}
+
+.aboutright {
+  flex-basis: 100%;
+}
+
+.aboutarea p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 0;
+}
+
+.sectiontitle {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.aboutright h2 {
+  margin-bottom: 3%;
+}
+
+.aboutbtn {
+  background: crimson;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 35px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 62em) {
+  .aboutleft {
+    flex-basis: 40%;
+  }
+  .aboutright {
+    flex-basis: 60%;
+  }
+}
