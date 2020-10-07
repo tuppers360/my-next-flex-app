@@ -124,14 +124,14 @@
 
 /* banner area */
 
-.bannerarea {
+.banner_area {
   position: relative;
   justify-content: center;
   min-height: 600px;
   color: #fff;
   text-align: center;
 
-  .bannerimg {
+  .banner_img {
     background-image: url(/blackpool_tower_darker_resize.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@
     font-size: 25px;
   }
 
-  .bannerbutton {
+  .banner_button {
     background: crimson;
     border-radius: 50px;
     font-weight: 700;
@@ -177,7 +177,7 @@
 }
 
 @media (min-width: 48em) {
-  .bannerarea {
+  .banner_area {
     min-height: 100vh;
 
     h1 {
@@ -188,7 +188,7 @@
       font-size: 1.5rem;
     }
 
-    .bannerbutton {
+    .banner_button {
       padding: 15px 35px;
     }
   }
@@ -196,7 +196,7 @@
 
 /* about section */
 
-.aboutcontent {
+.about_content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -211,16 +211,16 @@
   }
 }
 
-.aboutleft {
+.about_left {
   flex-basis: 100%;
   background-image: url(/blackpool_tower_darker_resize.png);
 }
 
-.aboutright {
+.about_right {
   flex-basis: 100%;
 }
 
-.aboutarea p {
+.about_area p {
   max-width: 800px;
   margin-bottom: 35px;
   line-height: 1.5;
@@ -228,17 +228,17 @@
   padding-left: 0;
 }
 
-.sectiontitle {
+.section_title {
   text-transform: uppercase;
   font-size: 50px;
   margin-bottom: 5%;
 }
 
-.aboutright h2 {
+.about_right h2 {
   margin-bottom: 3%;
 }
 
-.aboutbtn {
+.about_btn {
   background: crimson;
   border-radius: 50px;
   color: #fff;
@@ -248,10 +248,10 @@
 }
 
 @media (min-width: 62em) {
-  .aboutleft {
+  .about_left {
     flex-basis: 40%;
   }
-  .aboutright {
+  .about_right {
     flex-basis: 60%;
   }
 }
